@@ -7,3 +7,5 @@
 ## Errors
 - [Rowan-Cabarrus](https://directory.rccc.edu/)
     - Error: unable to verify the first certificate
+- [Brunswick]
+    - Need to figure out how to remove empty object in final array
