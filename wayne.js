@@ -3,7 +3,7 @@ var request = require("request"),
     cheerio = require("cheerio"),
     json2csv = require("json2csv"),
     rl = require('readline-sync')
-    url = "https://www.vgcc.edu/directory?page=";
+    url = "https://www.waynecc.edu/faculty-staff/?search=";
 
 
 
@@ -12,10 +12,39 @@ var request = require("request"),
 //     output: process.stdout
 // });
 
-var pages = [];
-for (var c = 1; c<12; c++){
-    pages.push(c)
-}  
+// for (var c = 1; c<12; c++){
+//     console.log(c)
+// }  
+
+var alpha = [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    ];   
+
     
 
 var all_emails = [],
@@ -27,47 +56,49 @@ var everything = {
     content: []
 };
 
-for (i in pages){
+for (i in alpha){
     // console.log(url + c)
-    request(url + pages[i], function(error, res, body){
+    request(url + alpha[i] + "&site_section=profiles-a-z-search", function(error, res, body){
+        //console.log(url + alpha[i] + "&site_section=profiles-a-z-search")
    
         if (!error){
-            var $ = cheerio.load(body);
             counter++;
+            var $ = cheerio.load(body);
 
             getAll();
 
             function getAll(){
 
+                var names = $('.fullname a')
+                //console.log(names.length)
                 var emails = $('[href^="mailto:"]');
 
                 emails.each(function(i, email){
 
-                    if (email.attribs.href.includes("webmaster")){ var notAContact = true;} else {var notAContact = false;}
-
-                    if (emails[i] !== undefined && !notAContact){
+                    if (emails[i] !== undefined && names[i] !== undefined){
                         var thisHref = email.attribs.href;
                         var thisEmail = thisHref.substring(7);
-                        var thisName = email.children[0].data;
+                        var thisName = names[i].children[0].data;
                         console.log(thisEmail + " " + thisName);
+                        everything.content.push({fullname: thisName, email: thisEmail});
                     }
                     
                     
-                everything.content.push({fullname: thisName, email: thisEmail});
+                
                 })
 
             } //getAll
 
-        if (counter == pages.length){
+        if (counter == alpha.length){
             console.log("last")
             var json = JSON.stringify(everything);
 
-            fs.writeFile('output/json/vanceg.json', json, 'utf8');
+            fs.writeFile('output/json/wayne.json', json, 'utf8');
         
             var fields = ['fullname', 'email']
             try {
                 var result = json2csv({data: everything["content"], fields: fields})
-                fs.writeFile('output/csv/vanceg.csv', result, 'utf8')
+                fs.writeFile('output/csv/wayne.csv', result, 'utf8')
             } catch (err) {
                 console.error(err)
             }
