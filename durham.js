@@ -3,7 +3,7 @@ var request = require("request"),
     cheerio = require("cheerio"),
     json2csv = require("json2csv"),
     rl = require('readline-sync')
-    url = "https://www.durhamtech.edu/directories/directory/index.htm";
+    url = "https://www.durhamtech.edu/directories/directory/faculty";
 
 
 
@@ -11,54 +11,98 @@ var request = require("request"),
 //     input: process.stdin, 
 //     output: process.stdout
 // });
+
+var alpha = [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    ];   
+
     
 
 var all_emails = [],
 first_names = [],
-last_names = [];
+last_names = [], 
+counter = 0;
 
 var everything = {
     content: []
 };
 
-request(url, function(error, res, body){
-    
-    if (!error){
-        var $ = cheerio.load(body);
+for (i in alpha){
+    console.log(alpha[i])
+    request(url + alpha[i].toLowerCase() + ".htm", function(error, res, body){
 
-        getAll();
+        console.log(url + alpha[i] + ".htm")
+        
+        if (!error){
+            counter++;
+            var $ = cheerio.load(body);
+            // console.log(body)
 
-        function getAll(){
+            getAll();
 
-            var emails = $('[href^="mailto:"]');
-            var names = $('.large');
+            function getAll(){
 
-            emails.each(function(i, email){
-                   
-                    var thisHref = email.attribs.href;
-                    var thisEmail = thisHref.substring(7);
-                    var thisName = names[i].children[0].data;
-                
-               everything.content.push({fullname: thisName, email: thisEmail});
-            })
+                var emails = $('[href^="mailto:"]');
+                var names = $('.large');
+                // console.log(names.length)
 
-        } //getAll
+                emails.each(function(i, email){
 
-    }
+                    if (names[i] !== undefined){
+                        var thisHref = email.attribs.href;
+                        var thisEmail = thisHref.substring(7);
+                        var thisName = names[i].children[0].data;
+                    }
+                    
+                        
 
-})
+                    
+                everything.content.push({fullname: thisName, email: thisEmail});
+                })
 
-function writeFile(){
-    var json = JSON.stringify(everything);
+            } //getAll
 
-    fs.writeFile('output/json/durham.json', json, 'utf8');
+        if (counter == alpha.length){
+            var json = JSON.stringify(everything);
 
-    var fields = ['fullname', 'email']
-    try {
-        var result = json2csv({data: everything["content"], fields: fields})
-        fs.writeFile('output/csv/durham.csv', result, 'utf8')
-    } catch (err) {
-        console.error(err)
-    }
+            fs.writeFile('output/json/durham.json', json, 'utf8');
+        
+            var fields = ['fullname', 'email']
+            try {
+                var result = json2csv({data: everything["content"], fields: fields})
+                fs.writeFile('output/csv/durham.csv', result, 'utf8')
+            } catch (err) {
+                console.error(err)
+            }
+        }
+
+        }
+
+    })
 }
 
