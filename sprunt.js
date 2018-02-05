@@ -51,7 +51,7 @@ request(url, function(error, res, body){
 
             var json = JSON.stringify(everything);
 
-            fs.writeFile('output/json/sprunt.json', json, 'utf8');
+            // fs.writeFile('output/json/sprunt.json', json, 'utf8');
 
             var fields = ['fullname', 'email']
             try {

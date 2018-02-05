@@ -57,12 +57,12 @@ request(url, function(error, res, body){
 
             var json = JSON.stringify(everything);
 
-            fs.writeFile('output/json/sprunt.json', json, 'utf8');
+           //fs.writeFile('output/json/craven.json', json, 'utf8');
 
             var fields = ['fullname', 'email']
             try {
                 var result = json2csv({data: everything["content"], fields: fields})
-                fs.writeFile('output/csv/sprunt.csv', result, 'utf8')
+                fs.writeFile('output/csv/craven.csv', result, 'utf8')
             } catch (err) {
                 console.error(err)
             }
