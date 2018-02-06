@@ -1,92 +1,91 @@
-"fullname","email"
-"Kenneth Boham","kenneth.boham@martincc.edu"
-"Billy Barber","billy.barber@martincc.edu"
-"Brian Busch","brian.busch@martincc.edu"
-"Norman Cherry","norman.cherry@martincc.edu"
-"Deryl Davis-Fulmer","deryl.fulmer@martincc.edu"
-"Elijah Freeman","elijah.freeman@martincc.edu"
-"Maureen Green","maureen.green@martincc.edu"
-"Judy Jennette","judy.jennette@martincc.edu"
-"Kismet Matthews","kismet.matthews@martincc.edu"
-"Nathan Mizell","nathan.mizell@martincc.edu"
-"Steve Taylor","steve.taylor@martincc.edu"
-"Pamela Allen","pamela.allen@martincc.edu"
-"Steven Anderson","steve.anderson@martincc.edu"
-"Debra Armstrong","debra.armstrong@martincc.edu"
-"Tammy Bailey","tammy.bailey@martincc.edu"
-"Catina Blake","catina.blake@martincc.edu"
-"Leslie Bond","leslie.bond@martincc.edu"
-"Robert Bonner","robert.bonner@martincc.edu"
-"Sharon Brabble","sharon.brabble@martincc.edu"
-"Rhonda Breed","rhonda.breed@martincc.edu"
-"Shelby Brothers","shelby.brothers@martincc.edu"
-"Candance Bryant-Whitehurst","candance.bryant-whitehurst@martincc.edu"
-"Patricia Cale","patricia.cale@martincc.edu"
-"Christina Cannon","christina.cannon@martincc.edu"
-"Mary Carson","mary.carson@martincc.edu"
-"Mary Anne Caudle","maryanne.caudle@martincc.edu"
-"Jennifer Cherry","jennifer.cherry@martincc.edu"
-"Jerry Coltrain","jerry.coltrain@martincc.edu"
-"Gary Copeland","gary.copeland@martincc.edu"
-"Alice Cotten","alice.cotten@martincc.edu"
-"Mary Dalcourt","mary.dalcourt@martincc.edu"
-"Alfred Dawes","alfred.dawes@martincc.edu"
-"George Dixon","george.dixon@martincc.edu"
-"Brandy Finney","brandy.finney@martincc.edu"
-"Marty Flynn","marty.flynn@martincc.edu"
-"Jason Freeman","jason.freeman@martincc.edu"
-"Jason Godwin",""
-"Michelle Griffin","michelle.griffin@martincc.edu"
-"Sue Gurley","sue.gurley@martincc.edu"
-"Nancy Haislip","nancy.haislip@martincc.edu"
-"Debra Hardison","debra.hardison@martincc.edu"
-"Curtis Hyler","curtis.hyler@martincc.edu"
-"Lena Jackson","lena.jackson@martincc.edu"
-"Eileen Jarmul","eileen.jarmul@martincc.edu"
-"Larry Johnson","larry.johnson@martincc.edu"
-"Jennifer Joyce","jennifer.joyce@martincc.edu"
-"Latonja Joyner-Hyman","latonja.joyner-hyman@martincc.edu"
-"Terri Leggett","teresa.leggett@martincc.edu"
-"Guy Leggett","guy.leggett@martincc.edu"
-"Jeff Lewis","jeff.lewis@martincc.edu"
-"Rochelle  Mabry","rochelle.mabry@martincc.edu"
-"Kimberly Matthews","kimberly.matthews@martincc.edu"
-"Dean McCall","dean.mccall@martincc.edu"
-"Michael McCann","michael.mccann@martincc.edu"
-"Willette ""Rose"" McGhee","rose.mcghee@martincc.edu"
-"Christina Measamer","christina.measamer@martincc.edu"
-"Wayland Mitchell","wayland.mitchell@martincc.edu"
-"Brenda Moore","brenda.moore@martincc.edu"
-"Vickie Murphy","vickie.murphy@martincc.edu"
-"Annette Murray","annette.murray@martincc.edu"
-"Kanon Nixon","kanon.nixon@martincc.edu"
-"Callie Northern-Herring","callie.northern-herring@martincc.edu"
-"Dawn Parker","dawn.parker@martincc.edu"
-"Jarvis Parker","jarvis.parker@martincc.edu"
-"Phyllis Peaks","phyllis.peaks@martincc.edu"
-"Pamela Perry","pamela.perry@martincc.edu"
-"Desiree Perry","desiree.perry@martincc.edu"
-"Jennifer Phelps","jennifer.phelps@martincc.edu"
-"Joe Phipps","joe.phipps@martincc.edu"
-"Daniel Price","daniel.price@martincc.edu"
-"Cynthia Price","cynthia.price@martincc.edu"
-"Donna Rogers","donna.rogers@martincc.edu"
-"Marsha Rogers","marsha.rogers@martincc.edu"
-"Bradford Smallwood","bradford.smallwood@martincc.edu"
-"Elaine Spellman","elaine.spellman@martincc.edu"
-"Melanie Stanley","melanie.stanley@mcc.martincc.edu"
-"Carey Stewart","carey.stewart@martincc.edu"
-"Randy Stokes","randy.stokes@martincc.edu"
-"Deborah Thompson","deborah.thompson@martincc.edu"
-"Tami Thurston","tami.thurston@martincc.edu"
-"Thomas Wall","thomas.wall@martincc.edu"
-"Kathryn Warren","kathryn.warren@martincc.edu"
-"Kevin Washington","kevin.washington@martincc.edu"
-"Ryal Watkins","ryal.watkins@martincc.edu"
-"Walter Wheeler","walter.wheeler@martincc.edu"
-"April Wheeler","april.wheeler@martincc.edu"
-"Allan Wiggins","allan.wiggins@martincc.edu"
-"Martha Williams","martha.williams@martincc.edu"
-"Jerry Wilson","jerry.wilson@martincc.edu"
-"Deborah Wyman","deborah.wyman@martincc.edu"
-,
+firstname,lastname,email
+Kenneth,Boham,kenneth.boham@martincc.edu
+Billy,Barber,billy.barber@martincc.edu
+Brian,Busch,brian.busch@martincc.edu
+Norman,Cherry,norman.cherry@martincc.edu
+Deryl,Davis-Fulmer,deryl.fulmer@martincc.edu
+Elijah,Freeman,elijah.freeman@martincc.edu
+Maureen,Green,maureen.green@martincc.edu
+Judy,Jennette,judy.jennette@martincc.edu
+Kismet,Matthews,kismet.matthews@martincc.edu
+Nathan,Mizell,nathan.mizell@martincc.edu
+Steve,Taylor,steve.taylor@martincc.edu
+Pamela,Allen,pamela.allen@martincc.edu
+Steven,Anderson,steve.anderson@martincc.edu
+Debra,Armstrong,debra.armstrong@martincc.edu
+Tammy,Bailey,tammy.bailey@martincc.edu
+Catina,Blake,catina.blake@martincc.edu
+Leslie,Bond,leslie.bond@martincc.edu
+Robert,Bonner,robert.bonner@martincc.edu
+Sharon,Brabble,sharon.brabble@martincc.edu
+Rhonda,Breed,rhonda.breed@martincc.edu
+Shelby,Brothers,shelby.brothers@martincc.edu
+Candance,Bryant-Whitehurst,candance.bryant-whitehurst@martincc.edu
+Patricia,Cale,patricia.cale@martincc.edu
+Christina,Cannon,christina.cannon@martincc.edu
+Mary,Carson,mary.carson@martincc.edu
+Mary,Caudle,maryanne.caudle@martincc.edu
+Jennifer,Cherry,jennifer.cherry@martincc.edu
+Jerry,Coltrain,jerry.coltrain@martincc.edu
+Gary,Copeland,gary.copeland@martincc.edu
+Alice,Cotten,alice.cotten@martincc.edu
+Mary,Dalcourt,mary.dalcourt@martincc.edu
+Alfred,Dawes,alfred.dawes@martincc.edu
+George,Dixon,george.dixon@martincc.edu
+Brandy,Finney,brandy.finney@martincc.edu
+Marty,Flynn,marty.flynn@martincc.edu
+Jason,Freeman,jason.freeman@martincc.edu
+Jason,Godwin,
+Michelle,Griffin,michelle.griffin@martincc.edu
+Sue,Gurley,sue.gurley@martincc.edu
+Nancy,Haislip,nancy.haislip@martincc.edu
+Debra,Hardison,debra.hardison@martincc.edu
+Curtis,Hyler,curtis.hyler@martincc.edu
+Lena,Jackson,lena.jackson@martincc.edu
+Eileen,Jarmul,eileen.jarmul@martincc.edu
+Larry,Johnson,larry.johnson@martincc.edu
+Jennifer,Joyce,jennifer.joyce@martincc.edu
+Latonja,Joyner-Hyman,latonja.joyner-hyman@martincc.edu
+Terri,Leggett,teresa.leggett@martincc.edu
+Guy,Leggett,guy.leggett@martincc.edu
+Jeff,Lewis,jeff.lewis@martincc.edu
+Rochelle,Mabry,rochelle.mabry@martincc.edu
+Kimberly,Matthews,kimberly.matthews@martincc.edu
+Dean,McCall,dean.mccall@martincc.edu
+Michael,McCann,michael.mccann@martincc.edu
+Willette,McGhee,rose.mcghee@martincc.edu
+Christina,Measamer,christina.measamer@martincc.edu
+Wayland,Mitchell,wayland.mitchell@martincc.edu
+Brenda,Moore,brenda.moore@martincc.edu
+Vickie,Murphy,vickie.murphy@martincc.edu
+Annette,Murray,annette.murray@martincc.edu
+Kanon,Nixon,kanon.nixon@martincc.edu
+Callie,Northern-Herring,callie.northern-herring@martincc.edu
+Dawn,Parker,dawn.parker@martincc.edu
+Jarvis,Parker,jarvis.parker@martincc.edu
+Phyllis,Peaks,phyllis.peaks@martincc.edu
+Pamela,Perry,pamela.perry@martincc.edu
+Desiree,Perry,desiree.perry@martincc.edu
+Jennifer,Phelps,jennifer.phelps@martincc.edu
+Joe,Phipps,joe.phipps@martincc.edu
+Daniel,Price,daniel.price@martincc.edu
+Cynthia,Price,cynthia.price@martincc.edu
+Donna,Rogers,donna.rogers@martincc.edu
+Marsha,Rogers,marsha.rogers@martincc.edu
+Bradford,Smallwood,bradford.smallwood@martincc.edu
+Elaine,Spellman,elaine.spellman@martincc.edu
+Melanie,Stanley,melanie.stanley@mcc.martincc.edu
+Carey,Stewart,carey.stewart@martincc.edu
+Randy,Stokes,randy.stokes@martincc.edu
+Deborah,Thompson,deborah.thompson@martincc.edu
+Tami,Thurston,tami.thurston@martincc.edu
+Thomas,Wall,thomas.wall@martincc.edu
+Kathryn,Warren,kathryn.warren@martincc.edu
+Kevin,Washington,kevin.washington@martincc.edu
+Ryal,Watkins,ryal.watkins@martincc.edu
+Walter,Wheeler,walter.wheeler@martincc.edu
+April,Wheeler,april.wheeler@martincc.edu
+Allan,Wiggins,allan.wiggins@martincc.edu
+Martha,Williams,martha.williams@martincc.edu
+Jerry,Wilson,jerry.wilson@martincc.edu
+Deborah,Wyman,deborah.wyman@martincc.edu
